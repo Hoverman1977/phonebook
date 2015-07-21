@@ -1,0 +1,158 @@
+table { 
+        border-collapse: separate; 
+	border-spacing: 0px;
+        max-width: 100%;
+        margin: 0;
+        /*border: 1px solid #CCCCCC;*/
+	border: 1px solid #284279;
+        background-color: #FFFFF0;
+}
+
+tr {
+	border: inherit;
+}
+
+th {
+        text-align: left;
+        background-color: #DDDDFF;
+        text-decoration: none;
+        font-weight: bold;
+	border: inherit;
+        border-bottom: 1px solid #CCCCCC;
+        padding: 0.5em;
+}
+
+td {
+        padding: 0.2em 0.5em 0.2em 0.5em;
+        border: 1px solid #CCCCCC;
+	max-width: 200px;
+}
+
+td a {
+        font-weight: bold;
+	border: inherit;
+}
+
+.deactive {
+	color: black;
+	background-color: #AAAAFF;
+}
+
+.nomanager {
+	color: black;
+	background-color: #FFAAAA;
+}
+
+
+td a:hover {
+        color: red;
+}
+
+.tablecelleven {
+        background-color: #FFFFC0;
+}
+
+.tablecelleven a {
+        font-weight: bold;
+} 
+
+.delbutton {
+	font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: red; 
+	color: #FFFFFF; 
+	width: auto;
+	margin-top: 3px; 
+	margin-bottom: 2px;
+	padding: 5px;
+	border: 1px solid #284279;
+	visibility: visible;
+}
+
+.confdelbutton {
+	font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: red; 
+	color: #FFFFFF; 
+	width: auto;
+	margin-top: 3px; 
+	margin-bottom: 2px;
+	padding: 5px;
+	border: 1px solid #284279;
+	visibility: hidden;
+}
+
+
+div.none {
+	width: 600px;
+	padding: 5px;	
+}
+
+div.form {
+	width: 600px;
+	background: #E9E9E9;
+	padding: 5px;
+	margin: 5px;	
+	border: 1px solid #284279;
+}
+
+input.textbox {
+ 	font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 3px;
+	border: 1px solid #999999;
+}
+
+input.button {
+	font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color: #9DACBF; 
+	color: #102132; 
+	width: auto;
+	margin-top: 3px; 
+	margin-bottom: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid #284279; 
+}
+
+
+div.row {
+  	clear: both;
+  	padding: 0px;
+}
+
+div.row span.label {
+	font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+ 	color: #102132; 
+  	float: left;
+  	width: 90px;
+  	text-align: right;
+	padding: 5px;
+}
+
+div.row span.formw {
+  	font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	float: right;
+  	width: 465px;
+  	text-align: left;
+	padding: 2px;
+}
+ 
+div.row span.formw input.textarea {
+  	font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	float: right;
+  	width: 465px;
+  	text-align: left;
+	padding: 2px;
+	height: auto;
+}
+
+  
+div.spacer {
+  	clear: both;
+}
+
+#message {
+	color: red;	
+}
+
+.pidkey {
+	font: 12px "Courier New";	
+}
